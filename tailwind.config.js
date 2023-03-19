@@ -13,6 +13,8 @@ module.exports = {
       'Violet' : '#542ded',
       'White' : '#ffff',
       'Black' : '#000',
+      'Blue' : '#393d8e'
+      
     },
     fontFamily: {
       'rubik' : ['rubik']
