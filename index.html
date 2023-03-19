@@ -2,6 +2,10 @@
 <html lang="es">
 
 <head>
+  <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +13,94 @@
   <title>Template-Store</title>
 </head>
 
-<body></body>
-
+<body>
+  <header>
+    <!-- DESKTOP -->
+    <section class="">
+      <!-- FIRST SECTION -->
+      <section class="flex justify-around w-full text-sm font-medium uppercase bg-Green-Sea h-11 text-White">
+        <div class="flex items-center gap-7">
+          <ul>
+            <a href="">About</a>
+          </ul>
+          <ul>
+            <a href="">Contact</a>
+          </ul>
+          <ul>
+            <i class="lni lni-phone"></i>
+            <a href="">+8801234567890</a>
+          </ul>
+        </div>
+        <div class="flex items-center gap-7">
+          <ul>
+            <a href="">USD</a>
+            <i class="lni lni-arrow-down"></i>
+          </ul>
+          <ul>
+            <a href="">English</a>
+            <i class="lni lni-arrow-down"></i>
+          </ul>
+          <ul>
+            <i class="lni lni-user"></i>
+            <a href="">Login</a>
+          </ul>
+        </div>
+      </section>
+      <!-- SECOND SECTION -->
+      <section class="h-16">
+        <div class="flex items-center h-full m-auto max-w-7xl">
+          <section class="flex-auto">
+            <img src="/images/logo.svg" alt="">
+          </section>
+          <section class="flex-auto">
+            <nav class="navbar">
+              <ul class="navbar-button">Womans</ul>
+              <ul class="navbar-button">Mens</ul>
+              <ul class="navbar-button">Kids</ul>
+              <ul class="navbar-button">Accesories</ul>
+              <ul class="navbar-button">Pages</ul>
+            </nav>
+          </section>
+          <section class="flex justify-end flex-auto gap-5">
+            <div class="flex border-[rgba(0,0,0,0.3)] rounded-md border items-center">
+              <div class="border-[rgba(0,0,0,0.3)] border-r h-full flex gap-1 items-center px-2">
+                <span class="font-medium text-Grey">All</span>
+                <i class="lni lni-arrow-down text-Violet"></i>
+              </div>
+              <div>
+                <input type="text" placeholder="Search" class="px-3 text-base font-medium text-Grey">
+              </div>
+              <div class="flex items-center justify-center w-10 h-10 rounded-md bg-Violet ">
+                <i class="text-xl lni lni-search-alt text-White"></i>
+              </div>
+            </div>
+            <img src="/images/icon-svg/cart-1.svg" alt="">
+          </section>
+        </div>
+      </section>
+    </section>
+    
+    <!-- MOBILE -->
+    <section class="container hidden h-32 mx-auto">
+      <section>
+        <div id="menu">
+          <div class="bar bar-1"></div>
+          <div class="bar bar-2"></div>
+          <div class="bar bar-3"></div>
+      </div>
+  
+      <nav id="hamburger" class="bg-[rgba(0,0,0,.7)]">
+          <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+          </ul>
+      </nav>
+        <div></div>
+        <div></div>
+      </section>
+    </section>
+  </header>
+</body>
+<script src="main.js"></script>
 </html>
