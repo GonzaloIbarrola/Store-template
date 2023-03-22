@@ -9,6 +9,43 @@
   .navbar-button {
     @apply px-4 py-1 transition rounded hover:drop-shadow-md hover:bg-Violet hover:text-White;
   }
+  .article-container {
+    @apply container flex flex-col items-center justify-around p-6 shadow-xl rounded-3xl;
+  }
+  .article_title {
+    @apply text-2xl font-medium;
+  }
+  .article-container-img {
+    @apply float-left w-60 h-64 object-cover
+  }
+  .article-container2 {
+    @apply text-center;
+  }
+  .article-container2-h3 {
+    @apply ;
+  }
+  .article-container2-span {
+    @apply ;
+  }
+  .article-container2-button {
+    @apply flex justify-center items-center gap-2 m-auto bg-[#e14c7b] text-base px-4 py-2 mt-4 w-32 text-White font-bold rounded-lg transition cursor-pointer hover:bg-[#c0436b];
+  }
+  .article-container2-button-img {
+    @apply text-White;
+  }
+  .article-container2-button-span {
+    @apply ;
+  }
+
+  .newsletter {
+    @apply bg-[#754ff1] h-96 text-White flex justify-center items-center flex-col;
+  }
+  .newsletter_container {
+    @apply flex flex-col items-center gap-6;
+  }
+  .newsletter_container_title {
+    @apply  text-5xl font-bold;
+  }
   #menu {
     position: absolute;
     left: 40px;
@@ -48,4 +85,9 @@
     width: 100vw;
     transition-timing-function: linear;
   }
+
+  /* #articulo {
+    block-size: fit-content;
+  }
+   */
 }
