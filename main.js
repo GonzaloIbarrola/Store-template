@@ -1,25 +1,14 @@
-// const menu = document.querySelector('#menu')
-// const nav = document.querySelector('#hamburger')
-
-// menu.addEventListener('click', () => {
-//   menu.classList.toggle('open')
-//   nav.classList.toggle('navbar-hamburger')
-// })
-
 // DATA ----->
-import { getData } from "./api.js";
-document.addEventListener('DOMContentLoaded', getData(renderData))
+import { getData } from './api.js';
+document.addEventListener('DOMContentLoaded', getData(renderData));
 
 function renderData(data) {
   // BUCLE PARA OBTENER LOS DATOS DE CADA OBJETO DENTRO DEL ARRAY.
-  for(let i = 0; i < data.length; i++) {
+  for (let i = 0; i < data.length; i++) {
     let id = data[i].id;
     let title = data[i].title;
     let image = data[i].image;
-    // let description = data[i].description;
-    // let category = data[i].category;
-    let price = data [i].price;
-
+    let price = data[i].price;
 
     // ESTRUCTURA DE ARTICULOS EN EL HTML.
     let articulos = document.getElementById('Articles');
@@ -36,5 +25,5 @@ function renderData(data) {
       </div>
     `;
     articulos.innerHTML += estructuraArticulos;
-  };
-};
+  }
+}
